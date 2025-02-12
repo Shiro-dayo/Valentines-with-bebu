@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, lightblue, lightpink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 90%;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.menhera-wave {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.bubble-text {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#clickButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #bf73fa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#clickButton:hover {
+    background-color: #a845f5;
+}
